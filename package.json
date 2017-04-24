@@ -1,0 +1,21 @@
+{
+  "name": "@sealights/sl-per-test-coverage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-cover": "node_modules\\.bin\\istanbul cover node_modules\\mocha\\bin\\_mocha --include-all-sources -- tsOutputs\\test\\unitTest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "smart-buffer": "^3.0.3"
+  },
+  "files": [
+    "tsOutputs"
+  ],
+  "devDependencies": {
+    "@types/node": "^7.0.13"
+  }
+}
